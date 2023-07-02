@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  background-color: #F8F8FF;
+  /* --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255; */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +25,20 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.arc{ 
+  border-color:transparent #2979ff #2979ff #2979ff;
+  transform: rotate(45deg);
+}
+
+.arc div img{
+  transform: rotate(-45deg);
+}
+
+.arc div div{
+  transform: rotate(-45deg);
+  position: absolute;
+  top:0;
+  right:0;
 }
