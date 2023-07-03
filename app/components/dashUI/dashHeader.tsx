@@ -5,11 +5,11 @@ import {MdPlaylistAddCheck,MdNavigateNext,MdNavigateBefore} from '../../../node_
 
 const DashHeader = () => {
     return (
-        <div className="border-2 py-8 px-4 flex lg:gap-10 md:gap-10 gap-0 items-center text-xs rounded-t-lg justify-between">
-            <div className='flex gap-2 items-center lg:hidden block'>
+        <div className="border-2 py-8 px-2 flex lg:gap-8 md:gap-8 gap-0 items-center text-xs rounded-t-lg justify-between">
+            <div className='flex gap-2 items-center lg:hidden '>
                 <MdNavigateBefore className='p-2 border-2 h-10 w-10 rounded-full' />
             </div>
-            <div className='flex gap-2 items-center md:block hidden'>
+            <div className='lg:flex gap-2 items-center md:flex hidden'>
                 <MdPlaylistAddCheck />
                 <h6>List Tasks</h6>
             </div>
@@ -17,23 +17,23 @@ const DashHeader = () => {
                 <BiSolidDashboard />
                 <h6>Boards</h6>
             </div>
-            <div className='flex gap-2 items-center md:block hidden'>
+            <div className='lg:flex gap-2 items-center md:flex hidden'>
                 <BsCalendar4Event />
                 <h6>Calendar</h6>
             </div>
-            <div className='flex gap-2 items-center lg:block hidden'>
+            <div className='lg:flex gap-2 items-center hidden'>
                 <BiMenuAltLeft />
                 <h6>Gantt</h6>
             </div>
-            <div className='flex gap-2 items-center lg:block hidden'>
+            <div className='lg:flex gap-2 items-center hidden'>
                 <BiMenu />
                 <h6>Timeline</h6>
             </div>
-            <div className='flex gap-2 items-center lg:block hidden'>
+            <div className='lg:flex gap-2 items-center hidden'>
                 <AiOutlineRise />
                 <h6>Activity</h6>
             </div>
-            <div className='flex gap-2 items-center lg:hidden block'>
+            <div className='flex gap-2 items-center lg:hidden '>
                 <MdNavigateNext className='p-2 border-2 h-10 w-10 rounded-full' />
             </div>
             <div className='border bg-white lg:py-3 lg:px-5 lg:flex flex p-3 items-center shadow-md rounded-full'>

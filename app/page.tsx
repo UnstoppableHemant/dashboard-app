@@ -9,7 +9,7 @@ export default function Home() {
     <>
     <Header/>
     <div className='flex'>
-      <SideNav/>
+      <div className='lg:border-x-2 lg:block hidden'><SideNav/></div>
       <User/>
       <Dashboard/>
     </div>

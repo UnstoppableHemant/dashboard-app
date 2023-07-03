@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='py-4 px-6 flex lg:gap-5 md:gap-1 items-center border-y-2 font-bold justify-between'>
         <div><BiMenu className='h-10 w-10 p-2 shadow-md bg-white rounded-full border'/></div>
-        <div><h3 className='text-xl'>Constructor</h3></div>
+        <div><h3 className='text-xl text-[#4D5E80]'>Constructor</h3></div>
         <div className='flex gap-6 text-xs pl-8'>
             <h6 className='lg:block md:block hidden'>Dashboard</h6>
             <h6 className='lg:block md:block hidden'>About Us</h6>

@@ -13,9 +13,9 @@ const Dashboard = () => {
     <div className="py-6 px-4 w-full">
       <DashHeader />
       <DashData/>
-      <div className="w-[400px] p-5 shadow-md border-2 rounded-lg relative bottom-[330px] right-[10px] ml-auto lg:block hidden">
+      <div className="w-[400px] p-5 shadow-md bg-white text-[#4D5E80] font-bold rounded-lg relative bottom-[330px] right-[10px] ml-auto lg:block hidden">
         <div className="flex justify-between items-center">
-          <div className="flex gap-4 items-center"><BsFillCircleFill/>
+          <div className="flex gap-4 items-center"><BsFillCircleFill className="text-sm text-blue-600"/>
           <h3>Development Apps</h3>
           <FiLink2/>
           </div>
@@ -46,9 +46,9 @@ const Dashboard = () => {
         <hr className="border-6 p-0"/>
         <div className="flex text-xs p-8 justify-between">
           <div className="flex items-center gap-2">
-            <div><h3>Start Date</h3><p>Sep 3, 9:00 pm</p></div>
+            <div><h3 className="text-[#7D8FB3]">Start Date</h3><p>Sep 3, 9:00 pm</p></div>
             <div><MdArrowForwardIos/></div>
-            <div><h3>Due Date</h3><p>Sep 4, 9:00 pm</p></div>
+            <div><h3 className="text-[#7D8FB3]">Due Date</h3><p>Sep 4, 9:00 pm</p></div>
           </div>
           <div className="flex gap-2 items-center">
             <IoMdArrowDroprightCircle className="w-7 h-7 text-green-500"/>

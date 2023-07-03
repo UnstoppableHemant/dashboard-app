@@ -3,28 +3,28 @@
 @tailwind utilities;
 
 :root {
-  background-color: #F8F8FF;
+  background-color: #F7F8FA;
   /* --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255; */
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  color:#7D8FB3;
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 .arc{ 
@@ -41,4 +41,18 @@ body {
   position: absolute;
   top:0;
   right:0;
+}
+
+svg{
+  color: #C3CAD9;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+}
+
+.dashUser-effect:hover,.dashUser-effect:hover svg{
+  transform: scale(1.2);
+  border-radius: 10px;
+  background-color: white;
+  color:#2979ff !important;
 }

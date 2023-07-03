@@ -9,28 +9,28 @@ import user4 from '../../assets/img/user-4.jpg';
 
 const SideNav = () => {
     return (
-        <div className='border-x-2 h-full p-5 pt-10 lg:block hidden'>
+        <div className='h-full p-5 pt-10 lg:block hidden'>
             <div>
                 <div>
-                    <BiSolidCompass className='w-10 h-10 p-2 rounded-full shadow-md' />
+                    <BiSolidCompass className='w-10 h-10 p-2 rounded-full shadow-md bg-white text-blue-600' />
                 </div>
                 <div className='mt-3'>
-                    <BiSolidStar className='w-10 h-10 p-2 rounded-full shadow-md' />
+                    <BiSolidStar className='w-10 h-10 p-2 rounded-full shadow-md bg-white' />
                 </div>
                 <div className='mt-3'>
                     <div className='relative'>
                         <BsFillCircleFill className='absolute right-1 text-blue-600 w-2 h-2'/>
-                        <BiLogoMessenger className='w-10 h-10 p-2 rounded-full shadow-md' />
+                        <BiLogoMessenger className='w-10 h-10 p-2 rounded-full shadow-md bg-white' />
                     </div>
                 </div>
                 <div className='mt-3'>
-                    <AiOutlineRise className='w-10 h-10 p-2 rounded-full shadow-md' />
+                    <AiOutlineRise className='w-10 h-10 p-2 rounded-full shadow-md bg-white' />
                 </div>
                 <div className='mt-3'>
-                    <BiWorld className='w-10 h-10 p-2 rounded-full shadow-md' />
+                    <BiWorld className='w-10 h-10 p-2 rounded-full shadow-md bg-white' />
                 </div>
                 <div className='mt-3'>
-                    <MdLocationCity className='w-10 h-10 p-2 rounded-full shadow-md' />
+                    <MdLocationCity className='w-10 h-10 p-2 rounded-full shadow-md bg-white' />
                 </div>
             </div>
             <div className='mt-24'> 
@@ -47,7 +47,7 @@ const SideNav = () => {
                     <Image src={user1} alt='User' className='w-10 h-10 rounded-full shadow-md bg-yellow-400' />
                 </div>
                 <div className='mt-3'>
-                    <BiSolidPlusCircle className='w-10 h-10 p-2 rounded-full shadow-md' />
+                    <BiSolidPlusCircle className='w-10 h-10 p-2 rounded-full shadow-md bg-white' />
                 </div>
             </div>
         </div>

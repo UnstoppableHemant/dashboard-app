@@ -12,8 +12,8 @@ const User = () => {
   return (
     <div className='py-8 px-10 w-[400px] lg:block hidden'>
         <div className='mt-3 flex justify-between'>
-            <BiSolidUser className='w-10 h-10 p-2 rounded-full shadow-md' />
-            <BsThreeDots className='w-10 h-10 p-2 rounded-full shadow-md' />
+            <BiSolidUser className='w-10 h-10 p-2 rounded-full shadow-md bg-white' />
+            <BsThreeDots className='w-10 h-10 p-2 rounded-full shadow-md bg-white' />
         </div>
         <div className='flex'>
             <div className='ms-auto me-auto p-3 rounded-full border-2 border-y-blue-300 arc'>
@@ -25,42 +25,42 @@ const User = () => {
         </div>
         <div className='text-center mt-8 font-bold'>
             <div className='mt-2'>
-                <h3 className='text-md'>Hello Alfred Bryant</h3>
+                <h3 className='text-md text-[#4D5E80]'>Hello Alfred Bryant</h3>
             </div>
             <div className='mt-2'>
                 <h3 className='text-sm'>adrain.nader@yahoo.com</h3>
             </div>
         </div>
-        <div className='grid grid-cols-2 mt-10 text-center'>
-            <div className='border p-3 rounded-tl-xl'>
+        <div className='grid grid-cols-2 mt-10 text-center font-bold'>
+            <div className='border p-3 rounded-tl-xl dashUser-effect'>
                 <BiSolidDashboard className='mx-auto my-6 w-8 h-8'/>
                 <h6>Dashboard</h6>
             </div>
-            <div className='border p-3 rounded-tr-xl'>
+            <div className='border p-3 rounded-tr-xl dashUser-effect'>
                 <MdPlaylistAddCheck className='mx-auto my-6 w-8 h-8'/>
                 <h6>Notes</h6>
             </div>
-            <div className='border p-3'>
+            <div className='border p-3 dashUser-effect'>
                 <MdPlaylistAddCheck className='mx-auto my-6 w-8 h-8'/>
                 <h6>Tasks</h6>
             </div>
-            <div className='border p-3'>
+            <div className='border p-3 dashUser-effect'>
                 <BsFillCloudFill className='mx-auto my-6 w-8 h-8'/>
                 <h6>Files</h6>
             </div>
-            <div className='border p-3'>
+            <div className='border p-3 dashUser-effect'>
                 <MdEmail className='mx-auto my-6 w-8 h-8'/>
                 <h6>Emails</h6>
             </div>
-            <div className='border p-3'>
+            <div className='border p-3 dashUser-effect'>
                 <FaUserGroup className='mx-auto my-6 w-8 h-8'/>
                 <h6>Clients</h6>
             </div>
-            <div className='border p-3 rounded-bl-xl'>
+            <div className='border p-3 rounded-bl-xl dashUser-effect'>
                 <IoMdCalendar className='mx-auto my-6 w-8 h-8'/>
                 <h6>Calendars</h6>
             </div>
-            <div className='border p-3 rounded-br-xl'>
+            <div className='border p-3 rounded-br-xl dashUser-effect'>
                 <TbTool className='mx-auto my-6 w-8 h-8'/>
                 <h6>Settings</h6>
             </div>
